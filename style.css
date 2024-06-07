@@ -1,0 +1,389 @@
+body{
+    background-color: black;
+}
+.secao-1-banner{
+    background-attachment: fixed;
+}
+.foto-perfil{
+    background-image: url(img/FfjFkgqWIAES1-A.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -270px;
+    
+}
+.foto-perfil::before{
+    content: "";
+    width: 155px;
+    height: 155px;
+    background: linear-gradient( 80deg, red,green);
+    border-radius: 100%;
+    
+    position: absolute;
+    z-index: -1;
+}
+.nome-1{
+    margin-top: 198px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    text-shadow: 0px 2px 1px #000;
+}
+.nome-1::before{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: linear-gradient(80deg, red, green);
+    position:absolute;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+.nome-1::after{
+    content: "";
+    position: absolute;
+    background-image: url(img/pngtree-instagram-bule-tick-insta-blue-star-vector-png-image_6695210.png);
+    width: 15px;
+    height: 15px;
+    bottom: 2px;
+    right: -16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.links{
+    text-align: center;
+    padding-right: 10px;
+}
+.link-1{
+    position: absolute;
+    margin-left: -210px;
+    text-decoration: none;
+    color: white;
+    font-family: 'ysabeau infant', sans-serif;
+    font-size: 15px;
+    background-color:#0200006e;
+    border-radius: 12px;
+    padding:0px 25px 0px 25px ;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+.link-img1{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.p-1{
+    text-align: center;
+}
+.p-2{
+    text-align: center;
+}
+a:hover{
+    background-color: white;
+    color:black;
+}
+.link-2 {
+    position: absolute;
+    margin-left: -210px;
+    text-decoration: none;
+    color: white;
+    font-family: 'ysabeau infant', sans-serif;
+    font-size: 15px;
+    background-color:#0200006e;
+    border-radius: 12px;
+    padding:0px 65px 0px 25px ;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.link-img2{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.link-3{
+    position: absolute;
+    margin-left: -210px;
+    text-decoration: none;
+    color: white;
+    font-family: 'ysabeau infant', sans-serif;
+    font-size: 15px;
+    background-color:#0200006e;
+    border-radius: 12px;
+    padding:0px 65px 0px 25px ;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 120px;
+}
+.link-img3{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.link-4{
+    position: absolute;
+    margin-left: -210px;
+    text-decoration: none;
+    color: white;
+    font-family: 'ysabeau infant', sans-serif;
+    font-size: 15px;
+    background-color:#0200006e;
+    border-radius: 12px;
+    padding:0px 85px 0px 25px ;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 180px;
+}
+.link-img4{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.link-5{
+    position: absolute;
+    margin-left:-210px;
+    text-decoration: none;
+    color: white;
+    font-family: 'ysabeau infant', sans-serif;
+    font-size: 15px;
+    background-color:#0200006e;
+    border-radius: 12px;
+    padding:0px 70px 0px 25px ;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 240px;
+    
+}
+.link-img5{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 7px;
+    
+}
+.link-6{
+    position: absolute;
+    margin-left:-220px;
+    text-decoration: none;
+    color: white;
+    font-family: 'ysabeau infant', sans-serif;
+    font-size: 15px;
+    background-color:#0200006e;
+    border-radius: 12px;
+    padding:0px 85px 0px 25px ;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 300px;
+    
+}
+.link-img6{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 7px;
+    
+}
+
+.secao-2{
+    background-image: url(img/cristiano-ronaldo-3840x2160.jpg);
+    height: 1600px;
+    width: 1881px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-top: -50px;
+}
+.tabela{
+    text-align: center;
+    margin-left: 600px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+    
+}
+.tabela-2{
+    text-align: center;
+    margin-left: 600px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+    
+}
+th{
+    font-size: 25px;
+    color: #fff;
+    background-color: #000000cc;
+    text-shadow: 2px 2px 1px #000;
+    text-align: center;
+    padding: 10px;
+}
+tr{
+    font-size: 25px;
+    color: #fff;
+    background-color: #000000cc;
+    text-shadow: 2px 2px 1px #000;
+    text-align: center;
+}
+.img-tab{
+    width: 50px;
+    margin-top: 20px;
+}
+.img-tab2{
+    width: 120px;
+    margin-top: 20px;
+}
+.img-tab3{
+    width: 55px;
+    margin-top: 20px;
+}
+.img-tab4{
+    width: 80px;
+    margin-top: 20px;
+}
+.secao-3{
+    background-image: url(img/thumb-1920-932701.jpg);
+    height: 1600px;
+    width: 1881px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-top: -50px;
+}
+.h2-3{
+    text-align: center;color: white;
+        font-size: 35px;
+        text-align: center; font-weight: bold;
+        text-shadow: 0px 2px 10px #000;
+        padding-top: 60px;
+        margin-left: -80px;
+}
+.h2-2{
+    text-align: center;color: white;
+        font-size: 35px;
+        text-align: center; font-weight: bold;
+        text-shadow: 0px 2px 1px #000;
+        padding-top: 60px;
+        margin-left: 40px;
+}
+.img-champ{
+    width: 40px;
+}
+.img-spc{
+    width: 40px;
+}
+
+@media only screen and (max-width: 37.5em){
+    .secao-1-banner{
+        
+        width: 300px;
+    }
+    .vd-1{
+        width: 600px;
+    }
+    .secao-2{
+        background-image: url(img/Design\ sem\ nome\ \(46\).png);
+        height: 1000px;
+        width: 521px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-left: -100px;
+    }
+    .secao-3{
+        background-image: url(img/thumb-1920-932701.jpg);
+        height: 800px;
+        width: 431px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-left: -10px;
+        margin-top: -50px;
+    }
+    .tabela{
+        text-align: center;
+        margin-left: 105px;
+        display: table;
+        border-collapse:collapse;
+        box-sizing: border-box;
+        text-indent: initial;
+        unicode-bidi: isolate;
+        border-spacing: 2px;
+        border-color: gray;
+    }
+    .tabela-2{
+        text-align: center;
+        margin-left: 35px;
+        display: table;
+        border-collapse:collapse;
+        box-sizing: border-box;
+        text-indent: initial;
+        unicode-bidi: isolate;
+        border-spacing: 2px;
+        border-color: gray;
+    }
+    th{
+        font-size: 15px;
+        color: #fff;
+        background-color: #000000cc;
+        text-shadow: 2px 2px 1px #000;
+        text-align: center;
+        padding: 0px;
+    }
+    tr{
+        font-size: 15px;
+        color: #fff;
+        background-color: #000000cc;
+        text-shadow: 2px 2px 1px #000;
+        text-align: center;
+    }
+    .img-tab{
+        width: 30px; margin-top: 20px;
+    }
+    .img-tab2{
+        width: 60px; margin-top: 20px;
+    }
+    .img-tab3{
+        width: 30px; margin-top: 20px;
+    }
+    .img-tab4{
+        width: 45px; margin-top: 20px;
+    }
+    .h2-3{
+        margin-left: -5px;
+    }
+}
